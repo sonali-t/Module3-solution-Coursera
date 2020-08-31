@@ -1,0 +1,75 @@
+body{
+    font-family: 'Philosopher', sans-serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+.navbar {
+    background-color: peachpuff;
+    
+
+}
+.navbar-brand  h1{
+   font-weight: bold;
+   color: black;
+   font-size: 2.7em;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:  darkred;
+}
+hr{
+    border: 1px solid darkred;
+    width: 50%;
+}
+a{
+    color: white;
+    
+}
+a:hover{
+color: gold;
+}
+.navlinks{
+    margin-left: 6rem !important;
+    margin-right: 5rem !important;
+    font-weight: 500 !important;
+    visibility: hidden;
+  }
+  @media only screen and (max-width: 600px) {
+  
+  
+  
+   .navlinks {
+    margin-left:0rem !important;
+    margin-right: 0rem !important;
+  visibility: visible;
+  text-align: center;
+  }
+    
+  }
+
+.text-center{
+    margin: 50px;
+    color: crimson;
+    font-weight: bold;
+    font-size: 3em;
+}
+.row{
+    margin: 30px;
+}
+.box
+{
+   background-color: rosybrown ; 
+   overflow: hidden;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+p{
+    margin: 10px;
+    
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    color: seashell;
+}
